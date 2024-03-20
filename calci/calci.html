@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calci.css">
+</head>
+<body id="body">
+    
+    <center>
+        
+
+       
+        <h1 id="calci">Calculator</h1>
+        <form >
+            <div id="maindiv">
+
+               <div id="input">
+                <input type="text" id="input1" onfocus="focus()" onblur="blur()">
+               </div>
+
+               <div id="row">
+                  <input type="button" value="AC" id="c" onclick="input1.value=' ' ">
+                  <input type="button" value="C" id="c" onclick="backspace()">  
+                  <input type="button" value="%" id="c" onclick="input1.value+='%'">
+                  <input type="button" value="+" onclick="input1.value+='+' " id="c">
+
+                   
+                    
+
+             </div>
+             
+
+            <div id="row">
+                <input type="button" value="1" onclick="input1.value+='1' " id="number">
+                <input type="button" value="2" onclick="input1.value+='2' " id="number">
+                <input type="button" value="3" onclick="input1.value+='3' " id="number">
+                <input type="button" value="-" onclick="input1.value+='-' " id="c">
+               
+            </div>
+
+            <div id="row">
+                <input type="button" value="4" onclick="input1.value+='4' " id="number">
+                <input type="button" value="5" onclick="input1.value+='5' " id="number">
+                <input type="button" value="6" onclick="input1.value+='6' " id="number">
+                <input type="button" value="*" onclick="input1.value+='*' " id="c">
+               
+
+
+            </div>
+
+            <div id="row">
+                <input type="button" value="7" onclick="input1.value+='7' " id="number">
+                <input type="button" value="8" onclick="input1.value+='8' " id="number">
+                <input type="button" value="9" onclick="input1.value+='9' " id="number">
+                <input type="button" value="/" onclick="input1.value+='/' " id="c">
+
+                
+
+
+            </div>
+
+            <div id="row">
+                <input type="button" value="0" onclick="input1.value+='0' " id="number">
+                <input type="button" value="." onclick="input1.value+='.' " id="c">
+                <input type="button" value="=" id="equal" onclick=input1.value=eval(input1.value)>
+
+                <h6 id="design">designed and developed by KARTHIK</h6>
+            </div>
+                 
+            </div>
+        </form>
+    
+    </center>
+
+
+    <script src="./calci.js"></script>
+    
+    <!-----
+    
+    <script>
+
+
+    let x=10
+    let y=20
+    let result=eval('x+y')
+    console.log(result)
+    </script>
+    ------>
+</body>
+</html>

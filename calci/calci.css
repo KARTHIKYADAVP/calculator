@@ -1,0 +1,85 @@
+#body
+{
+    background-color:lightslategrey;
+}
+
+
+#calci
+{
+    color:black;
+}
+#maindiv
+{
+    width: 250px;
+    height: 460px;
+    border: 1px solid black;
+    border-radius: 20px;
+   background-image: url(./desktop-wallpaper-maths-cute-math.jpg);
+   background-size: cover;
+   box-shadow: 3px 3px 2px black;
+
+
+}
+
+#input1
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    border-radius: 30%;
+
+}
+
+#row
+{
+    width: 250px;
+    height: 60px;
+    margin-top: 10px;
+  
+}
+#equal
+{
+    width: 100px;
+    height: 50px;
+    border-radius: 40%;
+    background-color:coral;
+    box-shadow: 3px 3px 2px black;
+
+}
+#equal:hover
+{
+    background-color: red;
+}
+
+#number
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    box-shadow: 3px 2px 2px black;
+
+}
+#number:hover
+{
+    background-color:springgreen;
+}
+
+#c
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    background-color: coral;
+    box-shadow: 3px 3px 2px black;
+}
+#c:hover
+{
+    background-color:springgreen;
+}
+
+#design
+{
+    color: white;
+}
+
